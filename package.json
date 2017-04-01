@@ -5,5 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "mysql": "^2.13.0"
+  },
+  "scripts": {
+    "test": "mocha \"**/*.spec.js\""
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
